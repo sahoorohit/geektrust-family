@@ -1,0 +1,65 @@
+# 1
+ADD_CHILD Chitra Aria Female
+GET_RELATIONSHIP Lavnya Maternal-Aunt
+GET_RELATIONSHIP Aria Siblings
+
+# output
+CHILD_ADDITION_SUCCEEDED
+Aria
+Jnki Ahit
+
+================================================================================
+
+# 2
+ADD_CHILD Pjali Srutak Male
+GET_RELATIONSHIP Pjali Son
+
+# output
+PERSON_NOT_FOUND
+PERSON_NOT_FOUND
+
+================================================================================
+
+# 3
+ADD_CHILD Asva Vani Female
+GET_RELATIONSHIP Vasa Siblings
+
+# output
+CHILD_ADDITION_FAILED
+NONE
+
+================================================================================
+
+# 4
+GET_RELATIONSHIP Atya Sister-In-Law
+
+# output
+Satvy Krpi
+
+================================================================================
+
+# 5
+ADD_CHILD Satya Ketu Male
+GET_RELATIONSHIP Kriya Paternal-Uncle
+GET_RELATIONSHIP Satvy Brother-In-Law
+
+
+# output
+CHILD_ADDITION_SUCCEEDED
+Asva Ketu
+Vyas Ketu
+
+================================================================================
+
+# 6
+GET_RELATIONSHIP Satvy Sister-In-Law
+GET_RELATIONSHIP Ish Son
+GET_RELATIONSHIP Misha Daughter
+
+
+# output
+Atya
+NONE
+PERSON_NOT_FOUND
+
+================================================================================

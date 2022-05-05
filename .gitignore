@@ -1,0 +1,6 @@
+venv-family
+htmlcov
+.idea
+.coverage
+__pycache__/
+*.py[cod]
